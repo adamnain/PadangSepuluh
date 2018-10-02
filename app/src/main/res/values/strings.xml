@@ -1,0 +1,8 @@
+<resources>
+    <string name="app_name">PadangSepuluh</string>
+    <string name="daftar_menu">List Menu</string>
+    <string name="lokasi">Location</string>
+    <string name="call">Call</string>
+    <string name="judul_daftar_menu">Daftar Menu:</string>
+    <string name="terimakasih">Terimakasih atas pesanannya, </string>
+</resources>

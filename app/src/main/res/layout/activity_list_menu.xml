@@ -1,0 +1,386 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:layout_margin="@dimen/margin_activity"
+    android:orientation="vertical"
+    tools:context=".ListMenuActivity">
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center"
+        android:text="@string/judul_daftar_menu"
+        android:textSize="28sp" />
+
+    <ScrollView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content">
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="vertical">
+
+            <android.support.v7.widget.CardView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_margin="@dimen/margin_cv"
+                android:padding="8dp">
+
+                <LinearLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:orientation="horizontal">
+
+                    <ImageView
+                        android:layout_width="0dp"
+                        android:layout_height="@dimen/height_imgMenu"
+                        android:layout_marginRight="@dimen/marginRight_imgMenu"
+                        android:layout_weight="1"
+                        android:scaleType="centerCrop"
+                        android:src="@drawable/nasi" />
+
+                    <LinearLayout
+                        android:layout_width="0dp"
+                        android:layout_height="wrap_content"
+                        android:layout_weight="2"
+                        android:orientation="vertical">
+
+                        <TextView
+                            android:layout_width="wrap_content"
+                            android:layout_height="wrap_content"
+                            android:text="Nasi Rp.3000"
+                            android:textSize="@dimen/textSize_namaMenu" />
+
+                        <LinearLayout
+                            android:layout_width="wrap_content"
+                            android:layout_height="wrap_content"
+                            android:orientation="horizontal">
+
+                            <Button
+                                android:id="@+id/btn_minNasi"
+                                android:layout_width="@dimen/width_btnJumlah"
+                                android:layout_height="@dimen/width_btnJumlah"
+                                android:text="-" />
+
+                            <TextView
+                                android:id="@+id/tv_jumNasi"
+                                android:layout_width="wrap_content"
+                                android:layout_height="wrap_content"
+                                android:layout_margin="4dp"
+                                android:text="0"
+                                android:textSize="@dimen/textSize_jumlahPesanan" />
+
+                            <Button
+                                android:id="@+id/btn_plusNasi"
+                                android:layout_width="@dimen/width_btnJumlah"
+                                android:layout_height="@dimen/width_btnJumlah"
+                                android:text="+" />
+
+                        </LinearLayout>
+
+                    </LinearLayout>
+
+
+                </LinearLayout>
+
+            </android.support.v7.widget.CardView>
+
+            <android.support.v7.widget.CardView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_margin="@dimen/margin_cv"
+                android:padding="8dp">
+
+                <LinearLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:orientation="horizontal">
+
+                    <ImageView
+                        android:layout_width="0dp"
+                        android:layout_height="@dimen/height_imgMenu"
+                        android:layout_marginRight="@dimen/marginRight_imgMenu"
+                        android:layout_weight="1"
+                        android:scaleType="centerCrop"
+                        android:src="@drawable/rendang" />
+
+                    <LinearLayout
+                        android:layout_width="0dp"
+                        android:layout_height="wrap_content"
+                        android:layout_weight="2"
+                        android:orientation="vertical">
+
+                        <TextView
+                            android:layout_width="wrap_content"
+                            android:layout_height="wrap_content"
+                            android:text="Rendang Rp.7000"
+                            android:textSize="@dimen/textSize_namaMenu" />
+
+                        <LinearLayout
+                            android:layout_width="wrap_content"
+                            android:layout_height="wrap_content"
+                            android:orientation="horizontal">
+
+                            <Button
+                                android:id="@+id/btn_minRendang"
+                                android:layout_width="@dimen/width_btnJumlah"
+                                android:layout_height="@dimen/width_btnJumlah"
+                                android:text="-" />
+
+                            <TextView
+                                android:id="@+id/tv_jumRendang"
+                                android:layout_width="wrap_content"
+                                android:layout_height="wrap_content"
+                                android:layout_margin="4dp"
+                                android:text="0"
+                                android:textSize="@dimen/textSize_jumlahPesanan" />
+
+                            <Button
+                                android:id="@+id/btn_plusRendang"
+                                android:layout_width="@dimen/width_btnJumlah"
+                                android:layout_height="@dimen/width_btnJumlah"
+                                android:text="+" />
+
+                        </LinearLayout>
+
+                    </LinearLayout>
+
+
+                </LinearLayout>
+
+            </android.support.v7.widget.CardView>
+
+            <android.support.v7.widget.CardView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_margin="@dimen/margin_cv"
+                android:padding="8dp">
+
+                <LinearLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:orientation="horizontal">
+
+                    <ImageView
+                        android:layout_width="0dp"
+                        android:layout_height="@dimen/height_imgMenu"
+                        android:layout_marginRight="@dimen/marginRight_imgMenu"
+                        android:layout_weight="1"
+                        android:scaleType="centerCrop"
+                        android:src="@drawable/ayam" />
+
+                    <LinearLayout
+                        android:layout_width="0dp"
+                        android:layout_height="wrap_content"
+                        android:layout_weight="2"
+                        android:orientation="vertical">
+
+                        <TextView
+                            android:layout_width="wrap_content"
+                            android:layout_height="wrap_content"
+                            android:text="Ayam Rp.7000"
+                            android:textSize="@dimen/textSize_namaMenu" />
+
+                        <LinearLayout
+                            android:layout_width="wrap_content"
+                            android:layout_height="wrap_content"
+                            android:orientation="horizontal">
+
+                            <Button
+                                android:id="@+id/btn_minAyam"
+                                android:layout_width="@dimen/width_btnJumlah"
+                                android:layout_height="@dimen/width_btnJumlah"
+                                android:text="-" />
+
+                            <TextView
+                                android:id="@+id/tv_jumAyam"
+                                android:layout_width="wrap_content"
+                                android:layout_height="wrap_content"
+                                android:layout_margin="4dp"
+                                android:text="0"
+                                android:textSize="@dimen/textSize_jumlahPesanan" />
+
+                            <Button
+                                android:id="@+id/btn_plusAyam"
+                                android:layout_width="@dimen/width_btnJumlah"
+                                android:layout_height="@dimen/width_btnJumlah"
+                                android:text="+" />
+
+                        </LinearLayout>
+
+                    </LinearLayout>
+
+
+                </LinearLayout>
+
+            </android.support.v7.widget.CardView>
+
+            <android.support.v7.widget.CardView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_margin="@dimen/margin_cv"
+                android:padding="8dp">
+
+                <LinearLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:orientation="horizontal">
+
+                    <ImageView
+                        android:layout_width="0dp"
+                        android:layout_height="@dimen/height_imgMenu"
+                        android:layout_marginRight="@dimen/marginRight_imgMenu"
+                        android:layout_weight="1"
+                        android:scaleType="centerCrop"
+                        android:src="@drawable/ikan" />
+
+                    <LinearLayout
+                        android:layout_width="0dp"
+                        android:layout_height="wrap_content"
+                        android:layout_weight="2"
+                        android:orientation="vertical">
+
+                        <TextView
+                            android:layout_width="wrap_content"
+                            android:layout_height="wrap_content"
+                            android:text="Ikan Rp.7000"
+                            android:textSize="@dimen/textSize_namaMenu" />
+
+                        <LinearLayout
+                            android:layout_width="wrap_content"
+                            android:layout_height="wrap_content"
+                            android:orientation="horizontal">
+
+                            <Button
+                                android:id="@+id/btn_minIkan"
+                                android:layout_width="@dimen/width_btnJumlah"
+                                android:layout_height="@dimen/width_btnJumlah"
+                                android:text="-" />
+
+                            <TextView
+                                android:id="@+id/tv_jumIkan"
+                                android:layout_width="wrap_content"
+                                android:layout_height="wrap_content"
+                                android:layout_margin="4dp"
+                                android:text="0"
+                                android:textSize="@dimen/textSize_jumlahPesanan" />
+
+                            <Button
+                                android:id="@+id/btn_plusIkan"
+                                android:layout_width="@dimen/width_btnJumlah"
+                                android:layout_height="@dimen/width_btnJumlah"
+                                android:text="+" />
+
+                        </LinearLayout>
+
+                    </LinearLayout>
+
+
+                </LinearLayout>
+
+            </android.support.v7.widget.CardView>
+
+            <android.support.v7.widget.CardView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_margin="@dimen/margin_cv"
+                android:padding="8dp">
+
+                <LinearLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:orientation="horizontal">
+
+                    <ImageView
+                        android:layout_marginRight="@dimen/marginRight_imgMenu"
+                        android:layout_width="0dp"
+                        android:layout_height="@dimen/height_imgMenu"
+                        android:layout_weight="1"
+                        android:src="@drawable/teh" />
+
+                    <LinearLayout
+                        android:layout_width="0dp"
+                        android:layout_height="wrap_content"
+                        android:layout_weight="2"
+                        android:orientation="vertical">
+
+                        <TextView
+                            android:layout_width="wrap_content"
+                            android:layout_height="wrap_content"
+                            android:text="Teh Manis Rp.4000"
+                            android:textSize="@dimen/textSize_namaMenu" />
+
+                        <LinearLayout
+                            android:layout_width="wrap_content"
+                            android:layout_height="wrap_content"
+                            android:orientation="horizontal">
+
+                            <Button
+                                android:id="@+id/btn_minTeh"
+                                android:layout_width="@dimen/width_btnJumlah"
+                                android:layout_height="@dimen/width_btnJumlah"
+                                android:text="-" />
+
+                            <TextView
+                                android:id="@+id/tv_jumTeh"
+                                android:layout_width="wrap_content"
+                                android:layout_height="wrap_content"
+                                android:layout_margin="4dp"
+                                android:text="0"
+                                android:textSize="@dimen/textSize_jumlahPesanan" />
+
+                            <Button
+                                android:id="@+id/btn_plusTeh"
+                                android:layout_width="@dimen/width_btnJumlah"
+                                android:layout_height="@dimen/width_btnJumlah"
+                                android:text="+" />
+
+                        </LinearLayout>
+
+                    </LinearLayout>
+
+
+                </LinearLayout>
+
+            </android.support.v7.widget.CardView>
+
+        </LinearLayout>
+
+
+    </ScrollView>
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:gravity="center"
+        android:orientation="horizontal">
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Total Harga Rp."
+            android:textSize="@dimen/textSize_namaMenu"
+            android:textStyle="bold" />
+
+        <TextView
+            android:id="@+id/tv_totalHarga"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="0"
+            android:textSize="@dimen/textSize_namaMenu"
+            android:textStyle="bold" />
+
+    </LinearLayout>
+
+    <Button
+        android:id="@+id/btn_pesan"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="PESAN" />
+
+
+</LinearLayout>

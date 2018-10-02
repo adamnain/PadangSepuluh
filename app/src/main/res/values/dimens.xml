@@ -1,0 +1,20 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <dimen name="height_menu_imageSlider">300dp</dimen>
+    <dimen name="height_menu_main">0dp</dimen>
+    <dimen name="margin_menu_main">4dp</dimen>
+    <dimen name="height_menu_subMain">0dp</dimen>
+    <dimen name="width_menu_card">0dp</dimen>
+    <dimen name="margin_menu_card">2dp</dimen>
+    <dimen name="height_menu_image">0dp</dimen>
+    <dimen name="menu_image_padding">20dp</dimen>
+    <dimen name="height_menu_textMenu">0dp</dimen>
+    <dimen name="textSize_menu_main">14sp</dimen>
+    <dimen name="margin_activity">8dp</dimen>
+    <dimen name="textSize_namaMenu">20sp</dimen>
+    <dimen name="width_btnJumlah">50dp</dimen>
+    <dimen name="height_imgMenu">70dp</dimen>
+    <dimen name="textSize_jumlahPesanan">20sp</dimen>
+    <dimen name="margin_cv">8dp</dimen>
+    <dimen name="marginRight_imgMenu">8dp</dimen>
+</resources>

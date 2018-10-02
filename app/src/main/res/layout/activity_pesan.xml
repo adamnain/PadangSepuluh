@@ -1,0 +1,36 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".PesanActivity">
+
+    <ImageView
+        android:layout_marginTop="150dp"
+        android:id="@+id/img_check"
+        android:layout_centerHorizontal="true"
+        android:src="@drawable/ic_check"
+        android:layout_width="150dp"
+        android:layout_height="150dp" />
+
+    <TextView
+        android:textSize="15sp"
+        android:textStyle="bold|italic"
+        android:id="@+id/tv_terimakasih"
+        android:text="@string/terimakasih"
+        android:layout_centerHorizontal="true"
+        android:layout_below="@id/img_check"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content" />
+
+    <TextView
+        android:id="@+id/tv_totalHargaPesan"
+        android:textSize="24sp"
+        android:text="Rp.30000"
+        android:layout_below="@id/tv_terimakasih"
+        android:layout_centerHorizontal="true"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content" />
+
+</RelativeLayout>
