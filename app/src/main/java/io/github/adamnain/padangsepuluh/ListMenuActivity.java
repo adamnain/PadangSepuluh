@@ -66,7 +66,11 @@ public class ListMenuActivity extends AppCompatActivity {
         jumTeh = 0;
 
         backButton();
-        //register contex menu
+        registerContext();
+    }
+
+    //register contex menu
+    private void registerContext(){
         registerForContextMenu(btnPlusNasi);
         registerForContextMenu(btnMinNasi);
         registerForContextMenu(btnPlusRendang);
