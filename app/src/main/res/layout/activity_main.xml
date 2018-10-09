@@ -65,7 +65,7 @@
                         android:layout_height="@dimen/height_menu_image"
                         android:layout_weight="2"
                         android:padding="@dimen/menu_image_padding"
-                        android:src="@drawable/ic_menu" />
+                        android:src="@drawable/ic_cooking" />
 
                     <TextView
                         android:layout_width="match_parent"
